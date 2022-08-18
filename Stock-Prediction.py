@@ -9,15 +9,15 @@ from prophet.plot import plot_plotly, plot_components_plotly
 
 
 
+
 START = "2017-01-01" 
 TODAY= date.today().strftime("%Y-%m-%d")
 
-st.title("Stock Prediction App")
+st.title("Stock Price Prediction App")
 # displaying all the possible stock from the github repo 
 stocks =pd.read_csv('https://raw.githubusercontent.com/kaushikjadhav01/Stock-Market-Prediction-Web-App-using-Machine-Learning-And-Sentiment-Analysis/master/Yahoo-Finance-Ticker-Symbols.csv')
 
 selected_stocks = st.selectbox("Select Stock for Prediction",stocks)
-
 
 
 @st.cache
@@ -32,6 +32,8 @@ data_load_state.text("Data Loaded ... done ! ")
 
 st.subheader('Stock data')
 st.text("(All prices are in USD)")
+
+st.text('Fixed width text')
 
 st.write(data.tail())   # last 5 column will be printed of the selected stock
 
@@ -52,16 +54,15 @@ period = n_years*365
 
 #Forecasting
 df_train = data[['Date','Close']]
-df_train = df_train.rename(columns={"Date": "ds","Close": "y"})
+df_train  = df_train.rename(columns={"Date": "ds","Close": "y"})
 
-
-
-m= Prophet()
+m = Prophet()
 m.fit(df_train)
+
 future = m.make_future_dataframe(periods=period)
 forecast = m.predict(future)
 
-st.subheader('Predict Stock ')
+st.subheader('Predict Stock')
 st.write(forecast.tail())
 
 st.write('Predict Stock')
