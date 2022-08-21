@@ -1,8 +1,8 @@
--==dstanpy==0.2.11
--.dstanpy==0.9.5
--bprophet==0.7.1
--dstanpy==0.9.5
--mdstanpy==0.9.5
+dstanpy==0.2.11
+.dstanpy==0.9.5
+bprophet==0.7.1
+dstanpy==0.9.5
+mdstanpy==0.9.5
 absl-py==0.13.0
 aiohttp==3.8.1
 aiosignal==1.2.0
