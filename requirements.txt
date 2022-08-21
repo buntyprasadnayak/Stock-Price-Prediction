@@ -1,5 +1,3 @@
-
-dstanpy==0.2.11
 bprophet==0.7.1
 dstanpy==0.9.5
 mdstanpy==0.9.5
