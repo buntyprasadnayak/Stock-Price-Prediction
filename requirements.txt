@@ -15,6 +15,7 @@ appscript @ file:///opt/concourse/worker/volumes/live/82e8b4c7-2416-4d10-509e-14
 argh==0.26.2
 argon2-cffi @ file:///opt/concourse/worker/volumes/live/d733ceb5-7f19-407b-7da7-a386540ab855/volume/argon2-cffi_1613037492998/work
 arviz @ file:///home/conda/feedstock_root/build_artifacts/arviz_1633274821480/work
+asgiref==3.5.2
 asn1crypto @ file:///tmp/build/80754af9/asn1crypto_1596577642040/work
 astor==0.8.1
 astroid @ file:///opt/concourse/worker/volumes/live/343a8902-287c-47fb-6db8-923a63364302/volume/astroid_1613500849157/work
@@ -77,6 +78,7 @@ defusedxml @ file:///tmp/build/80754af9/defusedxml_1615228127516/work
 diff-match-patch @ file:///tmp/build/80754af9/diff-match-patch_1594828741838/work
 distlib==0.3.2
 distributed @ file:///opt/concourse/worker/volumes/live/061a375f-fbe4-45b4-4d80-0ba96d3ee7cb/volume/distributed_1617384077473/work
+Django==4.0.4
 docopt==0.6.2
 docutils @ file:///opt/concourse/worker/volumes/live/c75adaac-4aab-4f8b-53ac-e2f0ae899bdf/volume/docutils_1617481416178/work
 entrypoints==0.3
@@ -189,6 +191,7 @@ oauthlib==3.1.1
 olefile==0.46
 opencv-contrib-python==4.4.0.44
 opencv-python==4.2.0.34
+opencv-python-headless==4.5.5.64
 openpyxl @ file:///tmp/build/80754af9/openpyxl_1615411699337/work
 opt-einsum==3.3.0
 packaging @ file:///tmp/build/80754af9/packaging_1611952188834/work
@@ -205,7 +208,7 @@ patsy==0.5.1
 pep8==1.7.1
 pexpect @ file:///tmp/build/80754af9/pexpect_1605563209008/work
 pickleshare @ file:///tmp/build/80754af9/pickleshare_1606932040724/work
-Pillow @ file:///opt/concourse/worker/volumes/live/a7c937c5-8583-47b2-5ff1-0dd2a9a0d739/volume/pillow_1625655830909/work
+Pillow==9.1.1
 pipreqs==0.4.11
 pkginfo==1.7.0
 platformdirs==2.0.2
@@ -294,6 +297,7 @@ sphinxcontrib-websupport @ file:///tmp/build/80754af9/sphinxcontrib-websupport_1
 spyder @ file:///opt/concourse/worker/volumes/live/b2db1f66-1cfc-4529-6e21-61097ab49952/volume/spyder_1616775698806/work
 spyder-kernels @ file:///opt/concourse/worker/volumes/live/12a19b85-7733-4e39-55a2-982abb6f0274/volume/spyder-kernels_1614030593315/work
 SQLAlchemy @ file:///opt/concourse/worker/volumes/live/31df50e1-4e8b-40a3-6d21-5c6d01ae48e8/volume/sqlalchemy_1618089538006/work
+sqlparse==0.4.2
 statsmodels @ file:///opt/concourse/worker/volumes/live/f55add71-53cb-4510-4c08-7ae9e294a482/volume/statsmodels_1614023740731/work
 streamlit==1.3.1
 sympy @ file:///opt/concourse/worker/volumes/live/0bf7d347-8399-4af8-5e6f-4267d4aabdd9/volume/sympy_1618255318469/work
@@ -309,14 +313,15 @@ termcolor==1.1.0
 terminado==0.9.4
 testpath @ file:///home/ktietz/src/ci/testpath_1611930608132/work
 textdistance @ file:///tmp/build/80754af9/textdistance_1612461398012/work
+thop==0.0.31.post2005241907
 threadpoolctl @ file:///tmp/tmp9twdgx9k/threadpoolctl-2.1.0-py3-none-any.whl
 three-merge @ file:///tmp/build/80754af9/three-merge_1607553261110/work
 tifffile==2020.10.1
 toml @ file:///tmp/build/80754af9/toml_1616166611790/work
 toolz @ file:///home/linux1/recipes/ci/toolz_1610987900194/work
-torch @ file:///Users/runner/miniforge3/conda-bld/pytorch-recipe_1629200540758/work
+torch==1.11.0
 torchaudio==0.9.0a0+33b2469
-torchvision==0.7.0
+torchvision==0.12.0
 tornado @ file:///opt/concourse/worker/volumes/live/05341796-4198-4ded-4a9a-332fde3cdfd1/volume/tornado_1606942323372/work
 tqdm @ file:///home/conda/feedstock_root/build_artifacts/tqdm_1632160078689/work
 traitlets @ file:///home/ktietz/src/ci/traitlets_1611929699868/work
