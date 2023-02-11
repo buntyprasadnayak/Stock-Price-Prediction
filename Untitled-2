@@ -1,0 +1,24 @@
+// Swapping two number 
+//a =2 , b=5 ;
+
+
+// a = a+b = 7
+// b = a-b = 7-5 = 2
+// a = a-b = 7-2 =5 
+
+
+
+
+// print even number 
+
+// 2 4 6 8 10 .. 
+
+#include<iostream>
+using namespace std;
+
+int main(){
+    for(int i=2;i<=100; i=i+2){
+        cout<<i<<" ";
+    }
+    return 0;
+}
