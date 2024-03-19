@@ -18,6 +18,9 @@ st.title("Stock Price Prediction App")
 # displaying all the possible stock
 stocks =pd.read_csv('https://raw.githubusercontent.com/kaushikjadhav01/Stock-Market-Prediction-Web-App-using-Machine-Learning-And-Sentiment-Analysis/master/Yahoo-Finance-Ticker-Symbols.csv')
 
+print(stocks.shape)
+print(stocks.head())
+
 selected_stocks = st.selectbox("Select Stock for Prediction",stocks)
 
 
@@ -57,6 +60,7 @@ period = n_years*365
 df_train = data[['Date','Close']]
 df_train  = df_train.rename(columns={"Date": "ds","Close": "y"})
 
+# Prophet model 
 m = Prophet()
 m.fit(df_train)
 
